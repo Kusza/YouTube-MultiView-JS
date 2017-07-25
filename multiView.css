@@ -1,0 +1,43 @@
+
+#multiViewPlayers > iframe, #blockemandsockem {
+	float:left;
+	position: absolute;
+	transition: all 1s ease-in-out;
+}
+#multiViewButtons {
+	margin-left: 10px;
+}
+#multiViewButtons > button {
+	position: relative;
+	z-index: 12;
+	opacity: 0.6;
+	background-color: #008;
+    border-radius: 20em;
+    color: #eee;
+    padding: 4px 10px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 14px;
+    margin: 1px;
+    cursor: pointer;
+	
+	/* Fixes Mobile for Holding */
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+#multiViewButtons > button:disabled {
+	background-color: #444;
+	color: #888;
+}
+#multiViewButtons > button:hover {
+	opacity: 0.9;
+}
+
+#blockemandsockem {
+	z-index: 11;
+}
